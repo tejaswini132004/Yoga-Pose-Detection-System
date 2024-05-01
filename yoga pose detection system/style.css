@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:sans-serif;
+    margin:0; padding:0;
+  }
+  
+  div {
+    padding:10px;
+  }
+  
+  #message {
+      font-size:2em;
+      font-weight: bold;
+      padding:10px;
+      background-color:rgb(152, 214, 235);
+  }
+  
+  #image img {
+    width:100%;
+  }
+  
+  video {
+      display:none;
+  }
+  
+  button {
+      font-size:1em;
+  }
+  
+  textarea {
+      width: 640px;
+      height:80px;
+  }

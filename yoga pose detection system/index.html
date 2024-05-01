@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ML5 Pose Yoga</title>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="yoga.js" defer></script>
+</head>
+
+<body>
+    <!-- use 640x360 for 16:9 camera, and 640x480 for a 4:3 camera -->
+    <canvas id="canvas" width="640" height="360"></canvas>
+    <video id="video" width="640" height="360" autoplay></video>
+
+    <div id="message">Loading...</div>
+    <div><textarea id="numbers"></textarea></div>   
+    
+</body>
+
+</html>
